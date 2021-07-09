@@ -1,0 +1,38 @@
+:root{/*----root colors----*/
+    --primary-dark: darkred;
+    --primary-light: indianred;
+    --background-light: antiquewhite;
+    --background-dark: rgb(255, 226, 188);
+}
+
+body{
+    background-color: var(--background-light);
+}
+button{
+    background-color: var(--background-dark);
+}
+.navbar{
+    background-color: var(--primary-light);
+}
+.home_noticebar{
+    padding: 0.2em;
+    background-color: var(--primary-dark);
+    color: white;
+}
+.notice_section{
+    background-color: var(--background-dark);
+    padding: 1em;
+    border: 2px dotted red;
+}
+.index_container{
+    margin: 2em 0;
+}
+.about_index{
+    padding: 1em;
+}
+.Efooter{
+    background-color: var(--primary-light);
+    margin-top: 5em;
+    padding: 3em 2em;
+    padding-bottom: 0;
+}
